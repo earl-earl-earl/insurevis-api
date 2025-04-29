@@ -1,0 +1,18 @@
+# requirements.txt
+
+# --- Dependencies from your list ---
+pyyaml==5.1
+torch
+torchvision
+torchaudio
+opencv-python
+# Installs Detectron2 directly from GitHub - NOTE: This might significantly increase build time on Render
+git+https://github.com/facebookresearch/detectron2.git
+onnxruntime
+shapely
+matplotlib # Consider if truly needed for the deployed API, often used for local plotting
+pillow
+
+# --- Dependencies for Flask API and Render Deployment ---
+Flask
+gunicorn
