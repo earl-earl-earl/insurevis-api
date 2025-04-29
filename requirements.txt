@@ -1,5 +1,9 @@
 # requirements.txt
 
+torch
+torchvision
+torchaudio
+
 # --- Dependencies from your list ---
 pyyaml==5.1
 opencv-python
