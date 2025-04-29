@@ -1,0 +1,6 @@
+# requirements_torch.txt
+
+# PyTorch and related dependencies (often separated due to size and platform dependencies)
+torch
+torchvision
+torchaudio
