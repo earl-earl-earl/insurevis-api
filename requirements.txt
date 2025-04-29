@@ -2,9 +2,6 @@
 
 # --- Dependencies from your list ---
 pyyaml==5.1
-torch
-torchvision
-torchaudio
 opencv-python
 # Installs Detectron2 directly from GitHub - NOTE: This might significantly increase build time on Render
 git+https://github.com/facebookresearch/detectron2.git
