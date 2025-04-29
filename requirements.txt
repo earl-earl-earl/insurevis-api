@@ -1,14 +1,9 @@
 # requirements.txt
-
-torch
-torchvision
-torchaudio
-
 # --- Dependencies from your list ---
 pyyaml==5.1
 opencv-python
 # Installs Detectron2 directly from GitHub - NOTE: This might significantly increase build time on Render
-git+https://github.com/facebookresearch/detectron2.git
+detectron2==0.6
 onnxruntime
 shapely
 matplotlib # Consider if truly needed for the deployed API, often used for local plotting
