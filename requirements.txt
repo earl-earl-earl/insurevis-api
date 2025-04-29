@@ -1,13 +1,14 @@
-# requirements.txt
-# --- Dependencies from your list ---
 pyyaml==5.1
 opencv-python
-# Installs Detectron2 directly from GitHub - NOTE: This might significantly increase build time on Render
-git+https://github.com/facebookresearch/detectron2.git
+# Use pre-built wheel from Facebook's index
+detectron2 # <--- Just the package name now
+torch==1.10.0+cpu # <--- Add/ensure correct PyTorch CPU version
+torchvision==0.11.0+cpu # <--- Add/ensure compatible torchvision CPU version
 onnxruntime
 shapely
 matplotlib # Consider if truly needed for the deployed API, often used for local plotting
 pillow
+wheel # <--- Keep wheel, good practice
 
 # --- Dependencies for Flask API and Render Deployment ---
 Flask
